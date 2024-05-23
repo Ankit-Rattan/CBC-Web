@@ -55,16 +55,17 @@ export default function Navbar() {
         </div>
       </div>
       <ul className="hidden lg:flex lg:gap-12 lg:text-lg">
-        <NavItem href="/">Home</NavItem>
-        <NavItem href="/center">CBC Center</NavItem>
-        <NavItem href="/about">About Us</NavItem>
-        <NavItem href="/contact">Contact Us</NavItem>
-      </ul>
+  <NavItem href="/" handleClick={toggleMenu}>Home</NavItem>
+  <NavItem href="/center" handleClick={toggleMenu}>CBC Center</NavItem>
+  <NavItem href="/about" handleClick={toggleMenu}>About Us</NavItem>
+  <NavItem href="/contact" handleClick={toggleMenu}>Contact Us</NavItem>
+</ul>
+
     </div>
   );
 }
 
-function NavItem({ href, children, handleClick }) {
+function NavItem({ href, children, handleClick }: { href: string; children: React.ReactNode; handleClick: () => void; }) {
   return (
     <li
       className="border border-none duration-500 hover:bg-slate-700 hover:text-white rounded-full py-1 px-2 cursor-pointer"
@@ -74,3 +75,4 @@ function NavItem({ href, children, handleClick }) {
     </li>
   );
 }
+
