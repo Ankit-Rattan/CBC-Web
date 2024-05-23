@@ -68,7 +68,7 @@ export default function Navbar() {
 function NavItem({ href, children, handleClick }: { href: string; children: React.ReactNode; handleClick: () => void; }) {
   return (
     <li
-      className="text-4xl border border-none duration-500 hover:bg-slate-700 hover:text-white rounded-full py-1 px-2 cursor-pointer"
+      className="text-2xl border border-none duration-500 hover:bg-slate-700 hover:text-white rounded-full py-1 px-2 cursor-pointer"
       onClick={handleClick}
     >
       <Link href={href}>{children}</Link>
