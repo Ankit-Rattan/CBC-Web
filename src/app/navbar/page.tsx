@@ -55,11 +55,12 @@ export default function Navbar() {
         </div>
       </div>
       <ul className="hidden lg:flex lg:gap-12 lg:text-lg">
-        <NavItem href="/">Home</NavItem>
-        <NavItem href="/center">CBC Center</NavItem>
-        <NavItem href="/about">About Us</NavItem>
-        <NavItem href="/contact">Contact Us</NavItem>
-      </ul>
+  <NavItem href="/" handleClick={toggleMenu}>Home</NavItem>
+  <NavItem href="/center" handleClick={toggleMenu}>CBC Center</NavItem>
+  <NavItem href="/about" handleClick={toggleMenu}>About Us</NavItem>
+  <NavItem href="/contact" handleClick={toggleMenu}>Contact Us</NavItem>
+</ul>
+
     </div>
   );
 }
