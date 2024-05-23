@@ -16,7 +16,6 @@ export default function Enter() {
         <div className=" m-auto">
           <h3 className="text-8xl">So,</h3>
           <p className="text-5xl flex flex-wrap gap-2">
-            {" "}
             What are you <span className="text-red-500">waiting</span> for?
           </p>
         </div>
