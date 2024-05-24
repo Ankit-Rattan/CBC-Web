@@ -43,24 +43,24 @@ export default function Center() {
             <div className={`button-container ${show1 ? 'fade-in' : ''}`}>
               <Link href='https://createbycreators.podia.com/'>
                 <button className=" hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200">                  
-                  <p className="text-4xl font-mono mb-1 imganim">Courses</p>
-                  <span className="font-mono">FREE courses and Roadmap are available... Check it OUT!</span>
+                  <p className="text-4xl font-mono mb-1 imganim font-semibold">Courses</p>
+                  <span className="font-mono text-2xl">FREE courses and Roadmap are available... Check it OUT!</span>
                 </button>
               </Link>
             </div>
             <div className={`button-container ${show2 ? 'fade-in' : ''} mt-[5rem]`}>
               <Link href='https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual'>
                 <button className="hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200" >
-                  <p className="text-4xl font-mono mb-1 imganim">Community</p>
-                  <span className="font-mono">To chat with others and learn from their experience </span>
+                  <p className="text-4xl font-mono mb-1 font-semibold imganim">Community</p>
+                  <span className="font-mono text-2xl">To chat with others and learn from their experience </span>
                   </button>
               </Link>
             </div>
             <div className={`button-container ${show3 ? 'fade-in' : ''} mt-[5rem]`}>
               <Link href='https://createbycoders.hashnode.dev/'>
                 <button className="hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200" >
-                  <p className="text-4xl font-mono mb-1 imganim">Blogs | Bytes</p>
-                  <span className="font-mono">Read the blogs to stay updates... and well time to flex your colleague 😉</span>
+                  <p className="text-4xl font-mono font-semibold mb-1 imganim">Blogs | Bytes</p>
+                  <span className="font-mono text-2xl">Read the blogs to stay updates... and well time to flex your colleague 😉</span>
                   </button>
               </Link>
             </div>
