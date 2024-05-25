@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "../logo/page";
 import Logobg from "../logobg/page";
 
@@ -18,15 +19,19 @@ export default function Contact() {
             <div className="bg-black text-blue-400 p-[1rem] border hover:bg-blue-400 hover:text-black border-blue-400 shadow-2xl shadow-blue-400 rounded-full cursor-pointer font-mono imganim duration-500">
               📘 Linkedin
             </div>
+            <Link href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual">
             <div className=" text-red-400 shadow-2xl border border-red-400 shadow-red-400 p-[1rem] hover:bg-red-400 hover:text-black rounded-full cursor-pointer font-mono imganim duration-500">
               😺 Chat with us
             </div>
+            </Link>
             <div className="bg-black text-amber-200 shadow-2xl border border-amber-200 hover:bg-amber-200 hover:text-black shadow-amber-200 p-[1rem] rounded-full cursor-pointer font-mono buttonmove duration-500">
               ✖️/Twitter{" "}
             </div>
+            <Link href="https://createbycreators.podia.com/">
             <div className="bg-black text-slate-300 p-[1rem] border border-slate-300 shadow-2xl hover:bg-slate-200 hover:text-black shadow-slate-300 rounded-full cursor-pointer font-mono buttonmove duration-500">
               ➿ Free Course
             </div>
+            </Link>
           </div>
          <div className="bg-white flex justify-center items-center mt-[5rem]">
             <Logobg/>
