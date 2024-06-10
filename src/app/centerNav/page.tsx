@@ -48,7 +48,7 @@ export default function CenterNav() {
           <div className='justify-center text-center w-fit m-auto center-container'>
             
             <div className={`button-container ${show1 ? 'fade-in' : ''}`}>
-              <Link href='https://createbycreators.podia.com/'>
+              <Link href='/creator'>
                 <button className=" hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200">                  
                   <p className="text-4xl font-mono mb-1 imganim font-semibold">Creator Zone</p>
                   <span className="font-mono text-2xl">No worries We are here to elevate your profile <br/> with real-time analytics and feedback to supercharge your content.</span>
