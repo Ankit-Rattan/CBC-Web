@@ -1,4 +1,6 @@
 import About from "./about/page";
+import Center from "./center/page";
+import CenterNav from "./centerNav/page";
 import Contact from "./contact/page";
 import Enter from "./enter/page";
 import Main from "./main/page";
@@ -11,8 +13,9 @@ export default function Home() {
     <>
     <Analytics/>
     <Navbar/>
-    <Main/>
+    <Main/> 
     <About/>
+    <CenterNav/>
     <Enter/>
     <Contact/>
     </>
