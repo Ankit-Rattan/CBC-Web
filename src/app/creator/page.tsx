@@ -45,7 +45,7 @@ export default function Creator() {
                                     <br />
                                     <br />
                                     <b>
-                                        ➡️Ready to take your content to the next level? Join our Ambassador Program today and let's make magic together⬅️.
+                                        ➡️Ready to take your content to the next level? Join our Ambassador Program today and lets make magic together⬅️.
                                     </b>
                                 </span>
                                 <hr className="border-2 border-gray-400" />
