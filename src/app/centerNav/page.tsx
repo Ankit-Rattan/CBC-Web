@@ -44,7 +44,6 @@ export default function CenterNav() {
     return (
       <div>
         <div>
-          <Navbar />
           <div className='flex flex-wrap justify-around h-[100%] items-center m-5' >
           <div className='justify-center text-center w-fit m-auto center-container'>
             

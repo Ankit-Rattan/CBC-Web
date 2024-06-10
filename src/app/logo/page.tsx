@@ -1,5 +1,5 @@
 import Link from "next/link";
-import img from "../../images/CBC.png"
+import img from "../../images/CBCround.png"
 import Image from "next/image";
 
 export default function Logo() {

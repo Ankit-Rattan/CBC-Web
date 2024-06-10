@@ -46,6 +46,9 @@ export default function Navbar() {
           <NavItem href="/center" handleClick={toggleMenu}>
             Center
           </NavItem>
+          <NavItem href="/creator" handleClick={toggleMenu}>
+            Creator Program
+          </NavItem>
           <NavItem href="/about" handleClick={toggleMenu}>
             About Us
           </NavItem>
@@ -60,6 +63,7 @@ export default function Navbar() {
       <ul className="hidden lg:flex lg:gap-12 lg:text-lg">
   <NavItem href="/" handleClick={toggleMenu}>Home</NavItem>
   <NavItem href="/center" handleClick={toggleMenu}>Center</NavItem>
+  <NavItem href="/creator" handleClick={toggleMenu}>Creator Program</NavItem>
   <NavItem href="/about" handleClick={toggleMenu}>About Us</NavItem>
   <NavItem href="https://createbycreators.podia.com/blog" handleClick={toggleMenu}>Bytes</NavItem>
   <NavItem href="/contact" handleClick={toggleMenu}>Contact Us</NavItem>

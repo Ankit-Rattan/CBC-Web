@@ -16,9 +16,11 @@ export default function Contact() {
             </div>
           </div>
           <div className=" flex flex-wrap gap-5 text-center text-[2rem] justify-evenly mt-[10vh]">
+            <Link href="https://www.linkedin.com/company/createbycreators/">
             <div className="bg-black text-blue-400 p-[1rem] border hover:bg-blue-400 hover:text-black border-blue-400 shadow-2xl shadow-blue-400 rounded-full cursor-pointer font-mono imganim duration-500">
               📘 Linkedin
             </div>
+            </Link>
             <Link href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual">
             <div className=" text-red-400 shadow-2xl border border-red-400 shadow-red-400 p-[1rem] hover:bg-red-400 hover:text-black rounded-full cursor-pointer font-mono imganim duration-500">
               😺 Chat with us
