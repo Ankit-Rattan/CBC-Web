@@ -49,14 +49,14 @@ export default function Center() {
           <div className='justify-center text-center w-fit m-auto center-container'>
             
             <div className={`button-container ${show1 ? 'fade-in' : ''}`}>
-              <Link href='/creator'>
+              <Link href='/zone'>
                 <button className=" hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200">                  
-                  <p className="text-4xl font-mono mb-1 imganim font-semibold">Creator Zone</p>
+                  <p className="text-4xl font-mono mb-1 imganim font-semibold text-red-600">Creator Zone🔥</p>
                   <span className="font-mono text-2xl">No worries We are here to elevate your profile with real-time analytics and feedback to supercharge your content.</span>
                 </button>
               </Link>
             </div>
-            <div className={`button-container ${show2 ? 'fade-in' : ''}`}>
+            <div className={`button-container ${show2 ? 'fade-in' : ''} mt-[5rem]`}>
               <Link href='https://createbycreators.podia.com/'>
                 <button className=" hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200">                  
                   <p className="text-4xl font-mono mb-1 imganim font-semibold">Courses</p>
