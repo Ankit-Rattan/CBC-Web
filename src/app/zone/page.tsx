@@ -73,10 +73,10 @@ export default function Zone() {
                         <div className="flex flex-wrap items-center justify-center m-auto">
 
                             <div className={`button-container ${show2 ? 'fade-in' : ''} mt-10 `}>
-                                <Link href=''>
+                                <Link href='https://forms.gle/vDRwgJsiguAvsBBb9'>
                                     <button className="hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200 duration-500">
                                         <p className="text-3xl font-mono mb-1 imganim font-semibold text-red-500">Fill the Form</p>
-                                        <span className="font-mono text-xl">To get the full analytics based feedback of your channel, page or b</span>
+                                        <span className="font-mono text-xl">To get the full analytics based feedback of your channel, page or brand</span>
                                     </button>
                                 </Link>
                             </div>
