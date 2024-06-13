@@ -36,9 +36,8 @@ export default function Navbar() {
           </svg>
         </label>
         <div
-          className={`${
-            isOpen ? "flex flex-col items-center mt-4" : "hidden"
-          }`}
+          className={`${isOpen ? "flex flex-col items-center mt-4" : "hidden"
+            }`}
         >
           <NavItem href="/" handleClick={toggleMenu}>
             Home
@@ -52,6 +51,7 @@ export default function Navbar() {
           <NavItem href="/creator" handleClick={toggleMenu}>
             Amb. Program
           </NavItem>
+          <NavItem href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual" handleClick={toggleMenu}>Community</NavItem>
           <NavItem href="/about" handleClick={toggleMenu}>
             About Us
           </NavItem>
@@ -64,14 +64,15 @@ export default function Navbar() {
         </div>
       </div>
       <ul className="hidden lg:flex lg:gap-12 lg:text-lg">
-  <NavItem href="/" handleClick={toggleMenu}>Home</NavItem>
-  <NavItem href="/center" handleClick={toggleMenu}>Center</NavItem>
-  <NavItem href="/creator" handleClick={toggleMenu}>Program</NavItem>
-  <NavItem href="/zone" handleClick={toggleMenu}>Creator Zone</NavItem>
-  <NavItem href="/about" handleClick={toggleMenu}>About Us</NavItem>
-  <NavItem href="https://createbycreators.podia.com/blog" handleClick={toggleMenu}>Bytes</NavItem>
-  <NavItem href="/contact" handleClick={toggleMenu}>Contact Us</NavItem>
-</ul>
+        <NavItem href="/" handleClick={toggleMenu}>Home</NavItem>
+        <NavItem href="/center" handleClick={toggleMenu}>Center</NavItem>
+        <NavItem href="/creator" handleClick={toggleMenu}>Program</NavItem>
+        <NavItem href="/zone" handleClick={toggleMenu}>Creator Zone</NavItem>
+        <NavItem href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual" handleClick={toggleMenu}>Community</NavItem>
+        <NavItem href="/about" handleClick={toggleMenu}>About Us</NavItem>
+        <NavItem href="https://createbycreators.podia.com/blog" handleClick={toggleMenu}>Bytes</NavItem>
+        <NavItem href="/contact" handleClick={toggleMenu}>Contact Us</NavItem>
+      </ul>
 
     </div>
   );
