@@ -37,9 +37,9 @@ export default function Creator() {
 
                         <div className={`button-container ${show1 ? 'fade-in' : ''}`}>
                             <div className=" text-justify rounded-3xl p-5 ">
-                                <p className="text-4xl font-mono mb-1 imganim font-semibold">Creator Zone</p>
+                                <p className="text-4xl font-mono mb-1 imganim font-semibold">Ready to become a Creator...</p>
                                 <hr className="border-2 border-gray-400" />
-                                <span className="font-sans text-2xl">No worries❗We are here to elevate your profile with real-time analytics and feedback to supercharge your content. Join our exclusive Ambassador Program and unlock a world of opportunities to amplify your influence and connect with a global community of like-minded creators.
+                                <span className="font-sans text-2xl">Join our exclusive Ambassador Program and unlock a world of opportunities to amplify your influence and connect with a global community of like-minded creators.
                                     <br />
                                     As an ambassador, you will gain access to cutting-edge tools and resources designed to enhance your content creation journey. From personalized insights to tailored strategies, our team is dedicated to empowering you every step of the way. 🔥
                                     <br />
