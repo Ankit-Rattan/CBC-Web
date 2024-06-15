@@ -45,7 +45,7 @@ export default function Navbar() {
           <NavItem href="/center" handleClick={toggleMenu}>
             Center
           </NavItem>
-          <NavItem href="/contact" handleClick={toggleMenu}>
+          <NavItem href="/zone" handleClick={toggleMenu}>
             Creator Zone
           </NavItem>
           <NavItem href="/creator" handleClick={toggleMenu}>
