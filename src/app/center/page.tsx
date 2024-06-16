@@ -57,7 +57,7 @@ export default function Center() {
               </Link>
             </div>
             <div className={`button-container ${show2 ? 'fade-in' : ''} mt-[5rem]`}>
-              <Link href='https://createbycreators.podia.com/'>
+              <Link href='https://createbycreators.graphy.com/'>
                 <button className=" hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200">                  
                   <p className="text-4xl font-mono mb-1 imganim font-semibold">Courses</p>
                   <span className="font-mono text-2xl">FREE courses and Roadmap are available... Check it OUT!</span>
