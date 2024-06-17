@@ -51,7 +51,7 @@ export default function Navbar() {
           <NavItem href="/creator" handleClick={toggleMenu}>
             Amb. Program
           </NavItem>
-          <NavItem href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual" handleClick={toggleMenu}>Community</NavItem>
+          <NavItem href="https://chat.whatsapp.com/F477YxTNkmT2sJuAaNaGDa" handleClick={toggleMenu}>Community</NavItem>
           <NavItem href="/about" handleClick={toggleMenu}>
             About Us
           </NavItem>
@@ -68,7 +68,7 @@ export default function Navbar() {
         <NavItem href="/center" handleClick={toggleMenu}>Center</NavItem>
         <NavItem href="/creator" handleClick={toggleMenu}>Program</NavItem>
         <NavItem href="/zone" handleClick={toggleMenu}>Creator Zone</NavItem>
-        <NavItem href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual" handleClick={toggleMenu}>Community</NavItem>
+        <NavItem href="https://chat.whatsapp.com/F477YxTNkmT2sJuAaNaGDa" handleClick={toggleMenu}>Community</NavItem>
         <NavItem href="/about" handleClick={toggleMenu}>About Us</NavItem>
         <NavItem href="https://createbycreators.podia.com/blog" handleClick={toggleMenu}>Bytes</NavItem>
         <NavItem href="/contact" handleClick={toggleMenu}>Contact Us</NavItem>

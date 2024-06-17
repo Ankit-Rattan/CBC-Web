@@ -65,7 +65,7 @@ export default function Center() {
               </Link>
             </div>
             <div className={`button-container ${show3 ? 'fade-in' : ''} mt-[5rem]`}>
-              <Link href='https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual'>
+              <Link href='https://chat.whatsapp.com/F477YxTNkmT2sJuAaNaGDa'>
                 <button className="hover:bg-sky-950 rounded-3xl p-5 hover:text-white shadow-lg shadow-cyan-800 text-sky-950 bg-slate-200" >
                   <p className="text-4xl font-mono mb-1 font-semibold imganim">Community</p>
                   <span className="font-mono text-2xl">To chat with others and learn from their experience </span>
