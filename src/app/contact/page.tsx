@@ -21,7 +21,7 @@ export default function Contact() {
               📘 Linkedin
             </div>
             </Link>
-            <Link href="https://create-by-creators.mn.co/share/I90yHsO9-_Oyl4aE?utm_source=manual">
+            <Link href="https://chat.whatsapp.com/F477YxTNkmT2sJuAaNaGDa">
             <div className=" text-red-400 shadow-2xl border border-red-400 shadow-red-400 p-[1rem] hover:bg-red-400 hover:text-black rounded-full cursor-pointer font-mono imganim duration-500">
               😺 Chat with us
             </div>
