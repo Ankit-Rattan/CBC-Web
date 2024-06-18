@@ -46,7 +46,6 @@ export default function Center() {
                             </Link>
                             <p className="text-3xl mt-5 font-mono  font-semibold text-red-600">Course-1</p>
                             <p className="text-2xl font-mono  font-semibold text-black">More Personalized course.</p>
-                            <p className="text-3xl font-mono mb-1  font-semibold text-black">Rs. 599</p>
                         </div>
 
                         <div className={`card ${show2 ? 'fade-in' : ''} max-w-sm w-full`}>
@@ -57,11 +56,12 @@ export default function Center() {
                             </Link>
                             <p className="text-3xl mt-5 font-mono  font-semibold text-red-600">Course-2</p>
                             <p className="text-2xl font-mono  font-semibold text-black">Normal course.</p>
-                            <p className="text-3xl font-mono mb-1  font-semibold text-black">Rs. 199 </p>
                         </div>
 
                     </div>
-                            <p className="text-2xl mt-5 font-mono mb-1   text-black"> <b>NOTE</b> : Discover exclusive seasonal offers available now! Check both the platform</p>
+                    <div>
+                            <p className="text-2xl mt-5 font-mono mb-1   text-black"> <b>NOTE</b> : Discover exclusive seasonal offers available now!</p>
+                    </div>
                 </div>
             </div>
         </div>
